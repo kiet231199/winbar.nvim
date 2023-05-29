@@ -70,7 +70,7 @@ function winbar_menu_entry_t:cat()
     end
     if component.name_hl then
       table.insert(hl_info, {
-        start = #str + #component.icon + 1,
+        start = #str + #component.icon,
         ['end'] = #str + #component.icon + #component.name + 1,
         hlgroup = component.name_hl,
       })
